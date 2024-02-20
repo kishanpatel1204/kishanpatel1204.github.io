@@ -48,9 +48,9 @@ $(document).ready(function(){
         loop: true
     });
 
-    let formselctor = document.getElementById("submitform")
+    // let formselctor = document.getElementById("submitform")
 
-    formselctor.addEventListener("submit", function(data){
+    // formselctor.addEventListener("submit", function(data){
         //event.preventDefault();
         
         // var name = document.getElementById("name").value;
@@ -67,7 +67,7 @@ $(document).ready(function(){
 
         // console.log(formData);
 
-    })
+    //})
 
 
 });
