@@ -78,7 +78,7 @@ function submitForm() {
     // Reload the page after a short delay (1 second)
     setTimeout(function() {
         window.location.reload();
-    }, 1000); // 1000 milliseconds = 1 second
+    }, 100); // 100 milliseconds = 0.1 second
 }
 
 // Attach submitForm function to form submission event
