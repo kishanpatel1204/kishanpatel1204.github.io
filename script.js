@@ -51,21 +51,21 @@ $(document).ready(function(){
     let formselctor = document.getElementById("submitform")
 
     formselctor.addEventListener("submit", function(data){
-        event.preventDefault();
+        //event.preventDefault();
+        
+        // var name = document.getElementById("name").value;
+        // var email = document.getElementById("email").value;
+        // var subject = document.getElementById("subject").value;
+        // var message = document.getElementById("message").value;
 
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-        var message = document.getElementById("message").value;
+        // var formData = {
+        //         name: name,
+        //         email: email,
+        //         subject: subject,
+        //         message: message
+        // };
 
-        var formData = {
-                name: name,
-                email: email,
-                subject: subject,
-                message: message
-        };
-
-        console.log(formData);
+        // console.log(formData);
 
     })
 
