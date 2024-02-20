@@ -68,6 +68,24 @@ $(document).ready(function(){
         // console.log(formData);
 
     //})
+});
 
+function submitForm() {
+    // Submit the form by targeting the hidden iframe
+    document.getElementById("contactForm").target = "hidden_iframe";
+    document.getElementById("contactForm").submit();
+    
+    // Reload the page after a short delay (1 second)
+    setTimeout(function() {
+        window.location.reload();
+    }, 1000); // 1000 milliseconds = 1 second
+}
 
+// Attach submitForm function to form submission event
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+    
+    // Call the submitForm function
+    submitForm();
 });
