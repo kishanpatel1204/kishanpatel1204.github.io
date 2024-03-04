@@ -1,1 +1,1 @@
-Created persnol portfolio using HTML, CSS and Javascript.
+Created personal portfolio using HTML, CSS and Javascript.
